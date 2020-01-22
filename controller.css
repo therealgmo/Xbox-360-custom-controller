@@ -1,7 +1,7 @@
-/*BEGIN Xbox 360 Controller (Black) Styling*/
+/*BEGIN Xbox 360 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom {
-    background: url(https://i.imgur.com/zbE4VSy.png); 
+    background: url(http://i.imgur.com/UphJSJC.png); 
     height: 539px;
     width: 638px;
 }
@@ -21,7 +21,7 @@
 .custom .trigger{/* These are the actual triggers themselves */
     width: 60px;
     height: 83px;
-    background: url(http://i.imgur.com/nQpPhb9.png);
+    background: url(http://i.imgur.com/pNjahLW.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -33,7 +33,7 @@ above to achieve the desired position. */
 }
 .custom .trigger.right{
  position: absolute;
- right: -277px; 
+ right: -276px; 
  background-position: 60px 0px;
 }
 /* The bumpers follow the same methodology as the triggers in terms of
@@ -41,7 +41,7 @@ placement */
 .custom .bumper{
     width: 111px;
     height: 41px;
-    background: url(http://i.imgur.com/VuNoWSs.png);
+    background: url(http://i.imgur.com/11sunsr.png);
     opacity: 0;
 }
 .custom .bumpers{
@@ -61,8 +61,8 @@ left: -21px;
 }
 .custom .bumper.right{
 position: absolute;
-top: 17px;
-right: -348px;
+top: 18px;
+right: -347px;
 background-position: 111px 0px;
 }
 .custom .quadrant{
@@ -105,13 +105,13 @@ start and select buttons. */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(http://i.imgur.com/RJagKpr.png);
+    background: url(http://i.imgur.com/P46ifLx.png);
     width: 81px;
     height: 32px;
 }
 .custom .back.pressed{
 position: absolute;
-    left: -56px;
+    left: -57px;
     width: 40px;
 	height: 32px;
 	top: -59px;
@@ -143,7 +143,7 @@ width: 0px;
 	position: absolute;
     width: 47px;
     height:46px;
-    background: url(http://i.imgur.com/0UzDvO6.png);
+    background: url(http://i.imgur.com/CCwyAin.png);
 }
 .custom .a.pressed{
     background-position: 47px 0;
@@ -161,7 +161,7 @@ width: 0px;
 	left: -107px;
 }
 .custom .y.pressed{
-    background-position: -53px 0;
+    background-position: -51px 0;
 	top: -25px;
     left: -59px;
 }
@@ -177,7 +177,7 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    background: url(http://i.imgur.com/v7qRGBP.png);
+    background: url(http://i.imgur.com/mtXTE87.png);
     height:82px;
     width: 91px;
 }
@@ -206,14 +206,14 @@ width: 83px;
     left: 74px;
 }
 .custom .face{
-    background: url(http://i.imgur.com/LFxGoLl.png);
+    background: url(http://i.imgur.com/jYr3OSX.png);
     position: absolute;
 }
 .custom .face.pressed.up{
 	position: absolute;
 	width: 55px;
 	height: 55px;
-    left: 131px;
+    left: 132px;
     top: 66px;
     background-position: -57px 0px;
 }
@@ -221,7 +221,7 @@ width: 83px;
 	position: absolute;
 	width: 55px;
 	height: 55px;
-    left: 128px;
+    left: 129px;
     top: 120px;
     background-position: 114px 0;
 }
@@ -245,5 +245,57 @@ width: 83px;
     margin-top: 5px;
     background-position-y: 52px;
 }
+/* The following entries are empty because I haven't used them yet, but they
+exist for the purpose of displaying a fightstick. Since fightsticks have 
+the left and right triggers and digital buttons, there are separate 
+html items that allow the triggers to be shown as button presses isntead of
+an opacity setting */
+.custom .trigger-button.left{
+    
+}
+.custom .trigger-button.right{
+    
+}
+.custom .trigger-button.left.pressed{
+    
+}
+.custom .trigger-button.right.pressed{
+    
+}
+/* This is where the fight stick CSS would go. The ideal way of 
+showing the input would be to use an image sprite of a fight stick in
+all 8 positions, and change it according to the inputs. The classes 
+themselves are fairly self explanatory. */
+.fstick{
+    position: absolute;
+    width: 140px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
+}
+.fstick.up{
+  
+}
+.fstick.down{
+  
+}
+.fstick.left{
+  
+}
+.fstick.right{
+  
+}
+.fstick.up.right{
+  
+}
+.fstick.up.left{
+  
+}
+.fstick.down.right{
+  
+}
+.fstick.down.left{
+  
+}
 
-/*END Xbox 360 Controller (Black) Styling*/
+/*END Xbox 360 Controller Styling*/
